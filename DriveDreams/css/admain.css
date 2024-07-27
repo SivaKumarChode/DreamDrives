@@ -1,0 +1,426 @@
+* {
+  margin: 0%;
+  padding: 0%;
+
+}
+
+/* navigation bar */
+.nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 75px;
+  border: 2px solid black;
+  position: sticky;
+  top: 0;
+}
+
+/* links */
+.links>ul {
+  display: flex;
+  list-style-type: none;
+  width: 200%;
+  justify-content: space-between;
+  position: relative;
+  right: 2x;
+  z-index: 1;
+}
+
+/* links */
+.aa {
+  color: #ffffff;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* link hover effects */
+a:hover {
+  text-shadow: 0px 0px 5px #7AB2B2;
+}
+
+/* logo image */
+.logo>img {
+  border: none;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+/* search */
+.search {
+  display: flex;
+  width: 30%;
+  margin-right: 30px;
+}
+
+/* search  inputs  */
+.search>input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* targeting placeholder in input box */
+.search>input::placeholder {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* search button */
+.search>button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.part1 {
+  height: 92vh;
+  background-image: url("../images/admin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#add {
+  width: 15px;
+  display: flex;
+  position: fixed;
+  bottom: 10%;
+  right: 7%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #4D869C;
+  background-color: rgb(0, 0, 0);
+}
+/* add items right side corner properties (hover effect) */
+#add:hover {
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 0px 10px rgb(28, 39, 61);
+}
+/* right side corner pluse symbol down text */
+#add1 {
+  display: flex;
+  position: fixed;
+  bottom: 4%;
+  right: 3%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 7%;
+  color: white;
+}
+/* right side corner pluse symbol (link) */
+.add-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+/* benz car page starting page*/
+.car1 {
+  border: 2px solid rgb(0, 0, 0);
+  height: 100vh;
+  background-image: url("../images/benz.jpg");
+  background-size: cover;
+}
+/* benz shop now botton propeerties */
+.shake-horizontal {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 200px;
+  left: 300px;
+  padding: 10px;
+  border: 2px solid rgb(0, 132, 255);
+  background-color: rgb(0, 132, 255);
+  color: black;
+  border-radius: 0px 10px;
+  box-shadow: 0px 0px 5px rgb(0, 132, 255);
+}
+/* shop now botton propeerties ((animation effect for shop now botton)*/
+/* for ((benz car shop now botton)) */
+.shake-horizontal:hover {
+  -webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+@-webkit-keyframes shake-horizontal {
+
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  80% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  90% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px);
+  }
+}
+
+@keyframes shake-horizontal {
+
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  80% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  90% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px);
+  }
+}
+/* bike animatin for shop button */
+/*  */
+.shake:hover {
+  -webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+@-webkit-keyframes shake-horizontal {
+
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  80% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  90% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px);
+  }
+}
+@keyframes shake-horizontal {
+
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+
+  80% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  90% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px);
+  }
+}
+/* car and bike description ((border properties)) for the both same actions and properties only */
+.benz-text {
+  border: 3px double black;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-radius: 0px 20px;
+  width: 500px;
+  position: relative;
+  top: 25%;
+  left: 5%;
+  padding: 30px;
+}
+/* car and bike description for the both same actions and properties only */
+.con,.bike-tex {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* it is used for the ((benz logo))on benz page starting circle logo */
+.ben-hedding {
+  /* background-image: url("../images/benzlogo.jpg"); */
+  /* border: 2px solid rgb(0, 0, 0); */
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 10%;
+  left: 10%;
+  padding: 30px;
+  border-radius: 50.5%;
+}
+/* royal emfield background image properties */
+.bike1 {
+  background-image: url("../images/jawa.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+/*(( bike)) shop now botton propeerties */
+.shake {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 30px;
+  left: 250px;
+  padding: 10px;
+  border: 2px solid goldenrod;
+  background-color: goldenrod;
+  color: black;
+  border-radius: 0px 10px;
+  box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+/* royal emfield logo properties */
+.bike-logo {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 5%;
+  left: 5%;
+
+}
+.bike-text{
+  border: 3px double black;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-radius: 0px 20px;
+  width: 500px;
+  position: relative;
+  top: 0%;
+  left: 10%;
+  padding: 30px;
+}.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+.footer>h3{
+  color: rgb(0, 0, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  font-style: italic;
+  position: absolute;
+  
+  /* display: flex;
+  justify-content: center; */
+}
+.footer>button{
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  font-style: italic;
+}
+.footer>p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  font-style: italic;
+  position:relative;
+  top: 30px;
+}
+.footer2{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+.footer-img{
+  width: 50px;
+  height: 50px;
+margin-left:50px;
+border-radius: 50px;
+
+  
+}
+.footer-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+#footer-img1
+{
+  margin-left: 40%;
+}
+#footer-img2
+{
+  /* margin-left: 10%; */
+}
+.final-footer h3{
+  margin-left: 150px;
+}

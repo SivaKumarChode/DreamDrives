@@ -1,0 +1,53 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/39e2451c2b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+
+    <script>
+        function admin(){
+           var a=document.getElementById("but1");
+          var companyName= prompt("ENTER YOUR COMPANY NAME :");
+          var userCompany="siva";
+                if(companyName==userCompany)
+                {
+                    alert("you can access");
+
+                }
+                else{
+                    alert("go back");
+                }
+          }
+        function user(){
+           var a=document.getElementById("but2");
+           alert("Successfully logged in as a USER");
+        
+        }
+      </script>
+
+
+    <div class="signup-main">
+
+           <form action="">
+           <a href="./sigup.html"><i id="i" class="fa-solid fa-arrow-left-long"></i></a>
+            <h1>Login</h1>
+                
+                <label for="usrename">Usrename</label>
+                <input type="text" name="usrename" id="usrename">
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email">
+                <label for="Password">Password</label>
+                <input type="password" name="password" id="password">
+                <button id="but1" onclick="admin()"><a href="./admain.html">admin</a></button>
+                <button id="but2" onclick="user()"><a href="./user.html">user</a></button>
+           </form>
+    </div>
+</body>
+</html>

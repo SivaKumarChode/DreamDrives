@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/signup.css">
+  
+</head>
+
+<body>
+
+  <script>
+    function signup(){
+       var a=document.getElementById("button");
+         alert("SIGNUP SUCCESSFULLY COMPLEATED");
+    }
+    function cancel(){
+       var a=document.getElementById("button");
+         prompt("why Should you living this page");
+    }
+  </script>
+
+
+  <div class="signup-main">
+
+    <form action="">
+      <h1>signup</h1>
+
+      <label for="firstname">Firstname</label>
+      <input type="text" name="firstname" id="firstname">
+      <label for="Lastname">Lastname</label>
+      <input type="text" name="Lastname" id="Lastname">
+      <label for="Email">Email</label>
+      <input type="email" name="Email" id="Email">
+      <label for="Password">Password</label>
+      <input type="password" name="password" id="password">
+      <label for="number">Mo.number</label>
+      <input type="number" name="number" id="number">
+      <label for="company">Company name</label>
+      <input type="text" name="company" id="company"><small> <b>( company name is optional for users and mandatary
+        for
+        admins)</b></small>
+      <div class="gen">
+        <label for="">Gender: </label>
+        Male<input type="radio" name="Gender" id="Gender">
+        Female<input type="radio" name="Gender" id="Gender">
+        Other<input type="radio" name="Gender" id="Gender">
+      </div>
+      <button id="button" onclick="signup()"><a href="./login.html">signup</a></button>
+      <button id="button1" onclick="cancel()"><a href="">cancel</a></button>
+    </form>
+  </div>
+</body>
+
+</html>

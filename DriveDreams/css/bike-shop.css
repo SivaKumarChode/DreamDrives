@@ -1,0 +1,215 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  /* navigation bar */
+  .nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 75px;
+    border: 2px solid black;
+    position: sticky;
+    top: 0;
+  }
+  
+  /* links */
+  .links>ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 150px;
+    width: 500px;
+    justify-content: space-between;
+    position: relative;
+    right: 50px;
+  }
+  
+  /* links */
+  .aa {
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  /* link hover effects */
+  a:hover {
+    text-shadow: 0px 0px 5px #7AB2B2;
+  }
+  
+  /* logo image */
+  .logo>img {
+    border: none;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+  
+  /* search */
+  #search1 {
+    display: flex;
+    width: 100%;
+    margin-right: 30px;
+    position: relative;
+    left: 25%;
+    /* margin-top: 60px; */
+   
+  }
+  .suc-butt{
+     width: 65px;
+  }
+  
+  /* search  inputs  */
+  #search1>input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid black;
+    /* margin-top: 50px; */
+  }
+  
+  /* targeting placeholder in input box */
+  #search1>input::placeholder {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* search button */
+  #search1>button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin-top: 50px; */
+    margin-left: 5px;
+    border: 2px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .s{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: %; */
+    /* border: 2px solid rgb(255, 255, 255); */
+
+  }
+  .icons{
+    /* border: 2px solid rgb(255, 255, 255); */
+    padding: 20px;
+    margin-left: 40%;
+    display: flex;
+
+  }
+#ii{
+    margin-right: 30px;
+    background-color: white;
+    /* width: 50px; */
+    padding: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30%;
+}
+/* ...........border outer content............ */
+#part{
+    border: 2px solid rgb(255, 255, 255);
+    height: 100vh;
+    background-color: rgb(239, 235, 235);
+    margin-top: 7%;
+}
+/* ..............border for inner content............... */
+.part1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.part1-child{
+    border: 2px solid rgb(231, 229, 229);
+    width: 300px;
+    height: 570px;
+/* ...................inner images............................... */
+}
+#inner1-img{
+    background-image: url("https://images.jawamotorcycles.com/medium/perak/listing/perak.png?v=3?v=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: -50px; */
+    background-position: -10px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 60%;margin-bottom: 10px;
+    /* width: 10px; */
+
+}
+#inner2-img{
+    background-image: url("https://images.jawamotorcycles.com/medium/42/listing/42.png?v=3?v=5");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: -50px; */
+    border: 2px solid rgb(255, 255, 255);
+    height: 60%;margin-bottom: 10px;
+    background-position: -10px;
+    /* width: 10px; */
+
+}
+#inner3-img{
+    background-image: url("https://images.jawamotorcycles.com/medium/42-bobber/listing/42-bobber.png?v=3?v=5");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: -50px; */
+    background-position: -10px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 60%;margin-bottom: 10px;
+    /* width: 10px; */
+
+}
+#inner4-img{
+    background-image: url("https://images.jawamotorcycles.com/medium/jawa-350/listing/jawa-350.png?v=3?v=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -10px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 60%;margin-bottom: 10px;
+    /* width: 10px; */
+
+}
+#inner1-text{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    /* margin: 10px; */
+}
+/* .......................button properties.................... */
+button{
+    padding: 10px;
+    width: 65%;
+}
+#but1{
+    margin-top: 20px;
+    margin-left: 60px;
+    background-color: #0F7BCF;
+    border: none;
+    border: 2px solid rgb(32, 102, 139);
+    border-radius: 3px;
+}
+#but2{
+    margin-top: 20px;
+    margin-left: 60px;
+    background-color: #ffffff;
+    
+    border: 2px solid rgb(226, 213, 213);
+    border-radius: 3px;
+}
+button>a{
+    text-decoration: none;
+    color: black;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 13px;
+    padding: 5px;
+}
+.search-size{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: black;
+}
+hr{
+    position: relative;
+    top: 10px;
+}
